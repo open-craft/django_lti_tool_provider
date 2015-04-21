@@ -1,0 +1,30 @@
+- fields:
+    date_joined: '2015-01-01 00:00:00+00:00'
+    email: test@test.com
+    first_name: Test1
+    groups: []
+    is_active: true
+    is_staff: true
+    is_superuser: true
+    last_login: '2015-01-01 00:00:00+00:00'
+    last_name: Test
+    password: pbkdf2_sha256$12000$d639LJJEmkiV$2rEvR89xNSPcL9+SeoZoB2rrAbo7KY7Im4MueLyGMh0=  # test
+    user_permissions: []
+    username: test1
+  model: auth.user
+  pk: 1
+- fields:
+    date_joined: '2015-01-01 00:00:00+00:00'
+    email: other@test.com
+    first_name: Test2
+    groups: []
+    is_active: true
+    is_staff: true
+    is_superuser: true
+    last_login: '2015-01-01 00:00:00+00:00'
+    last_name: Test
+    password: pbkdf2_sha256$12000$d639LJJEmkiV$2rEvR89xNSPcL9+SeoZoB2rrAbo7KY7Im4MueLyGMh0=  # test
+    user_permissions: []
+    username: test2
+  model: auth.user
+  pk: 2

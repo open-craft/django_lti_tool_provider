@@ -1,0 +1,12 @@
+Django==1.8
+jsonfield
+oauth2==1.5.211
+PyYAML
+six
+
+# ims_lti_py pypi package is outdated and broken - using development version where the bug is fixed
+-e git+https://github.com/tophatmonocle/ims_lti_py.git@979244d83c2e6420d2c1941f58e52f641c56ad12#egg=ims_lti_py-develop
+
+# test requirements
+mock
+ddt
